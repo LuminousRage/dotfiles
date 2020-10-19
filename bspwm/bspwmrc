@@ -17,7 +17,8 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-wal -i "~/Pictures/adhouse7.png" --saturate 0.6
+# wal -i "$HOME/Pictures/ok.png" --saturate 0.6
+wpg -s "$HOME/Pictures/ok.png" -A "$HOME/Pictures/ok.png"
 $HOME/.config/polybar/launch.sh
-feh --bg-fill ~/Pictures/adhouse7.png
+feh --bg-fill ~/Pictures/ok.png
 picom
